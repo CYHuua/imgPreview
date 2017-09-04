@@ -5,7 +5,7 @@ html5图片预览插件
 
   new imgPreview({
 
-      auto: false,    //自动轮播
+      auto: false,    //自动轮播哈哈
 
       curIndex: 0,    //初始图片索引
 
