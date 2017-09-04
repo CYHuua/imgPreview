@@ -1,7 +1,5 @@
-# imgPreview
-html5图片预览插件
+# html5图片预览插件
 
-初始化：
 </br>new imgPreview({
 </br>&nbsp;&nbsp;&nbsp;&nbsp;auto: false,    //自动轮播
 </br>&nbsp;&nbsp;&nbsp;&nbsp;curIndex: 0,    //初始图片索引
