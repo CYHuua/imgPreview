@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>图片预览</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+	<style type="text/css">
+		*{padding:0;margin:0;}
+		.content{padding:20px;}
+	</style>
+</head>
+<body>
+	<div class="content">
+		<img src="images/1.jpg" width="100%" />
+		<img src="images/2.jpg" width="100%" />
+		<img src="images/3.jpg" width="100%" />
+		<img src="images/4.jpg" width="100%" />
+		<img src="images/5.jpg" width="100%" />
+		<img src="images/6.jpg" width="100%" />
+	</div>
+	<script type="text/javascript" src="js/imgPreview.js"></script>
+	<script type="text/javascript">
+		var content = document.getElementsByClassName('content')[0];
+		var imgs = content.getElementsByTagName('img');
+		for (var i = 0; i < imgs.length; i ++) {
+			imgs[i].index = i;
+			imgs[i].onclick = function(){
+				new imgPreview({
+					auto: true,
+					targets: content,
+					curIndex: this.index
+				});
+			}
+		}
+	</script>
+</body>
+</html>
