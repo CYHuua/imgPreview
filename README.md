@@ -1,9 +1,11 @@
 # html5图片预览插件
 
-</br>new imgPreview({
-</br>&nbsp;&nbsp;&nbsp;&nbsp;auto: false,    //自动轮播
-</br>&nbsp;&nbsp;&nbsp;&nbsp;curIndex: 0,    //初始图片索引
-</br>&nbsp;&nbsp;&nbsp;&nbsp;duration: 3000,  //自动轮播间隔时间
-</br>&nbsp;&nbsp;&nbsp;&nbsp;easing: 'ease-in',  //缓动类型
-</br>&nbsp;&nbsp;&nbsp;&nbsp;targets: ''   //目标图片集容器
-</br>});
+```
+new imgPreview({ 
+    auto: false, //自动轮播 
+    curIndex: 0, //初始图片索引 
+    duration: 3000, //自动轮播间隔时间 
+    easing: 'ease-in', //缓动类型 
+    targets: ''   //目标图片集容器 
+});
+```
